@@ -1,1 +1,8 @@
-# Gokulaindira_F23944CCE4BC880966F4D02ED57B79FD
+def fact_rec(n):
+  if n==0 or n==1:
+     return 1
+  else:
+     return n*fact_rec(n-1)
+number=int(input("enter a value"))
+res=fact_res(number)
+print("the factorial of {} is {}.". format (number,res))
